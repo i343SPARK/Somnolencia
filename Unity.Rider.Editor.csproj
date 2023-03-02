@@ -348,8 +348,11 @@
      <Reference Include="UnityEditor.OSXStandalone.Extensions">
      <HintPath>/Applications/Unity/Hub/Editor/2022.2.7f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
      </Reference>
+     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.7f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+     </Reference>
      <Reference Include="nunit.framework">
-     <HintPath>/Users/pablosalas/UnityProjects/Somnolencia/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+     <HintPath>/Users/pablosalas/Documents/GitHub/Somnolencia/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
      </Reference>
      <Reference Include="mscorlib">
      <HintPath>/Applications/Unity/Hub/Editor/2022.2.7f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/mscorlib.dll</HintPath>
@@ -727,10 +730,10 @@
      <HintPath>/Applications/Unity/Hub/Editor/2022.2.7f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>/Users/pablosalas/UnityProjects/Somnolencia/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+     <HintPath>/Users/pablosalas/Documents/GitHub/Somnolencia/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>/Users/pablosalas/UnityProjects/Somnolencia/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+     <HintPath>/Users/pablosalas/Documents/GitHub/Somnolencia/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

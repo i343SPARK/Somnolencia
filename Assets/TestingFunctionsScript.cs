@@ -5,6 +5,7 @@ using UnityEngine;
 public class TestingFunctionsScript : MonoBehaviour
 {
     public GameObject lights;
+    public GameObject sound;
     private bool toggleLights = true;
     
     // Start is called before the first frame update
@@ -21,12 +22,14 @@ public class TestingFunctionsScript : MonoBehaviour
             if (toggleLights)
             {
                 lights.SetActive(false);
+                sound.SetActive(true);
                 RenderSettings.fog = true;
                 toggleLights = false;
             }
             else
             {
                 lights.SetActive(true);
+                sound.SetActive(false);
                 RenderSettings.fog = false;
                 toggleLights = true;
             }

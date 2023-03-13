@@ -69,6 +69,7 @@
      <Folder Include="Assets\Alstrainfinite\KitchenAppliances\Scenes" />
      <Folder Include="Assets\PlantsPackage\FBX\Plants" />
      <Folder Include="Assets\AllSkyFree\Cold Sunset" />
+     <Folder Include="Assets\Materials\MaterialsScene" />
      <Folder Include="Assets\Alstrainfinite\KitchenAppliances\Prefabs" />
      <Folder Include="Assets\Sounds" />
      <Folder Include="Assets\Materials\Materials" />
@@ -101,6 +102,7 @@
      <Folder Include="Assets\AllSkyFree\Epic_BlueSunset" />
      <Folder Include="Assets\AllSkyFree\Deep Dusk" />
      <Folder Include="Assets\Scenes" />
+     <Folder Include="Assets\Materials\MaterialsRepeats" />
      <Folder Include="Assets\Bed &amp; Bath Furniture Pack\Materials" />
      <Folder Include="Assets\AllSkyFree\Cartoon Base BlueSky" />
      <Folder Include="Assets\Alstrainfinite" />

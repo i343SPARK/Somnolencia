@@ -53,6 +53,7 @@
      <Compile Include="Assets/Mini First Person Controller/Scripts/Components/Zoom.cs" />
      <Compile Include="Assets/Mini First Person Controller/Scripts/FirstPersonMovement.cs" />
      <Compile Include="Assets/Mini First Person Controller/Scripts/FirstPersonLook.cs" />
+     <Compile Include="Assets/Testing/CameraPortal.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets/ProBuilder Data" />
      <None Include="Library/PackageCache/com.unity.probuilder@5.0.6/Content/Shader/ReferenceUnlit.shader" />
@@ -62,6 +63,7 @@
      <None Include="Library/PackageCache/com.unity.probuilder@5.0.6/Content/Shader/NormalPreview.shader" />
      <Folder Include="Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials" />
      <None Include="Assets/Bed &amp; Bath Furniture Pack/Documentation.txt" />
+     <Folder Include="Assets/Testing" />
      <Folder Include="Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/lib/ReportGenerator" />
      <None Include="Library/PackageCache/com.unity.ext.nunit@1.0.6/package.json" />
      <None Include="Library/PackageCache/com.unity.probuilder@5.0.6/Content/Shader/DiffuseVertexColor.shader" />
@@ -111,6 +113,7 @@
      <None Include="Library/PackageCache/com.unity.probuilder@5.0.6/Content/Shader/UnlitVertexColor.shader" />
      <Folder Include="Assets/Alstrainfinite/KitchenAppliances/Prefabs" />
      <None Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/package.json" />
+     <Folder Include="Assets/Mini First Person Controller/Materials" />
      <Folder Include="Assets/Somnolencia Prefab" />
      <Folder Include="Assets/Sounds" />
      <None Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/ValidationExceptions.json" />

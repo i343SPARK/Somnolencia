@@ -8,6 +8,7 @@ public class TestingFunctionsScript : MonoBehaviour
     public GameObject lights; // luces de la escena
     public GameObject sound; // sonido de las luces
     public GameObject sound2; // musica de ambiente
+    public GameObject soundTest;
     private bool toggleLights = true; // variable para activar y desactivar las luces
     private bool secureSound = false; // variable para asegurar que el sonido se desactive hasta que el pitch llegue a cero
     
@@ -15,7 +16,7 @@ public class TestingFunctionsScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+      soundTest.SetActive(false);   
     }
 
     // Update is called once per frame
@@ -53,6 +54,11 @@ public class TestingFunctionsScript : MonoBehaviour
         else
         {
             secureSound = false;
+        }
+
+        if (sound2.GetComponent<AudioSource>().pitch < -0.1f)
+        {
+            soundTest.SetActive(true);
         }
     }
     

@@ -4,11 +4,9 @@ using UnityEngine;
 
 public class CameraPortal : MonoBehaviour
 {
-    public Camera otherCam;
-    public Transform otherPortal;
-    private Rigidbody playerRbody;
     
-    
+    public GameObject otherCam;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,8 +16,13 @@ public class CameraPortal : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Quaternion direction = Quaternion.Inverse(transform.rotation) * Camera.main.transform.rotation;
-        otherCam.transform.localEulerAngles = new Vector3(direction.eulerAngles.x, direction.eulerAngles.y + 180,
-            direction.eulerAngles.z);
+        //imita la rotacion de la camara y gira 180 grados para que el portal se vea bien
+        transform.rotation = Quaternion.Euler(otherCam.transform.rotation.eulerAngles.x,
+            otherCam.transform.rotation.eulerAngles.y + 180, 270);
+        
+        //imita la posicion de la camara
+        transform.position = -otherCam.transform.position;
+        
+        
     }
 }

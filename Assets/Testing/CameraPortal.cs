@@ -6,11 +6,12 @@ public class CameraPortal : MonoBehaviour
 {
     
     public GameObject otherCam;
+    public GameObject player1;
 
     // Start is called before the first frame update
     void Start()
     {
-         
+        
     }
 
     // Update is called once per frame
@@ -20,8 +21,10 @@ public class CameraPortal : MonoBehaviour
         transform.rotation = Quaternion.Euler(otherCam.transform.rotation.eulerAngles.x,
             otherCam.transform.rotation.eulerAngles.y + 180, 0);
 
-        Vector3 pos = transform.InverseTransformPoint(otherCam.transform.position);
+        Vector3 pos = transform.InverseTransformPoint(player1.transform.position);
 
-        transform.position = new Vector3(pos.x, -pos.y, pos.z);
+        //Mover al objeto al mismo tiempo que se mueve pos
+        transform.localPosition = -new Vector3(pos.x, -pos.y, pos.z);
+
     }
 }

@@ -5,22 +5,22 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638132877269509844
-    m_Hash: 4040912878
+      ticks: 638145207183853081
+    m_Hash: 200523821
   m_LockFileStatus:
     m_FilePath: C:/Users/Pablo/OneDrive/Documentos/GitHub/Somnolencia/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638132877269514903
-    m_Hash: 3649571327
+      ticks: 638145207390785378
+    m_Hash: 1685075928
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: C:/Users/Pablo/OneDrive/Documentos/GitHub/Somnolencia/Packages
-m_EditorVersion: 2022.2.7f1 (8331acaee5d3)
+m_EditorVersion: 2022.2.11f1 (621cd60d08fd)
 m_ResolvedPackages:
 - packageId: com.unity.ai.navigation@1.1.1
   testable: 0
@@ -993,12 +993,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.timeline@1.7.2
+- packageId: com.unity.timeline@1.7.3
   testable: 0
   isDirectDependency: 1
-  version: 1.7.2
+  version: 1.7.3
   source: 1
-  resolvedPath: C:\Users\Pablo\OneDrive\Documentos\GitHub\Somnolencia\Library\PackageCache\com.unity.timeline@1.7.2
+  resolvedPath: C:\Users\Pablo\OneDrive\Documentos\GitHub\Somnolencia\Library\PackageCache\com.unity.timeline@1.7.3
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1088,14 +1088,17 @@ m_ResolvedPackages:
     - 1.7.1
     - 1.7.2
     - 1.7.3
+    - 1.7.4
     - 1.8.0
     - 1.8.1
+    - 1.8.2
     compatible:
-    - 1.7.2
     - 1.7.3
+    - 1.7.4
     - 1.8.0
     - 1.8.1
-    recommended: 1.7.3
+    - 1.8.2
+    recommended: 1.7.4
     deprecated: []
   dependencies:
   - name: com.unity.modules.director
@@ -1131,16 +1134,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638019579250000000
-  documentationUrl: 
+  datePublishedTicks: 638119854890000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.7/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: 40b193547031a6a97c1fc47f71900f6690c33c6b
+    revision: f7767cd40a861592dca709fc360e85920c06705c
     path: 
   unityLifecycle:
-    version: 1.7.2
+    version: 1.7.3
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0

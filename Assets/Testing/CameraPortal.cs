@@ -21,7 +21,7 @@ public class CameraPortal : MonoBehaviour
         transform.rotation = Quaternion.Euler(otherCam.transform.rotation.eulerAngles.x,
             otherCam.transform.rotation.eulerAngles.y + 180, 0);
 
-        Vector3 pos = transform.InverseTransformPoint(player1.transform.position);
+        Vector3 pos = player1.transform.position;
 
         //Mover al objeto al mismo tiempo que se mueve pos
         transform.localPosition = -new Vector3(pos.x, -pos.y, pos.z);

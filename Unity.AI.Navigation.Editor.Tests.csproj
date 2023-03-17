@@ -45,13 +45,13 @@
      <Folder Include="Library/PackageCache/com.unity.ai.navigation@1.1.1/Tests/Editor/Converter" />
      <None Include="Library/PackageCache/com.unity.ai.navigation@1.1.1/Tests/Editor/Unity.AI.Navigation.Editor.Tests.asmdef" />
      <Reference Include="UnityEngine">
-     <HintPath>/Applications/Unity/Hub/Editor/2022.2.7f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.CoreModule">
-     <HintPath>/Applications/Unity/Hub/Editor/2022.2.7f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor">
-     <HintPath>/Applications/Unity/Hub/Editor/2022.2.7f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.dll</HintPath>
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

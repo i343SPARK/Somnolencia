@@ -1,0 +1,561 @@
+Unity Editor version:    2022.2.11f1 (621cd60d08fd)
+Branch:                  2022.2/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.2.1 (Build 22D68)
+Darwin version:          22.3.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.2.11f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/pablosalas/Documents/GitHub/Somnolencia
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+65131
+Successfully changed project path to: /Users/pablosalas/Documents/GitHub/Somnolencia
+/Users/pablosalas/Documents/GitHub/Somnolencia
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8311128384] Host "[IP] 192.168.1.67 [Port] 0 [Flags] 2 [Guid] 4292877392 [EditorId] 4292877392 [Version] 1048832 [Id] OSXEditor(0,MacBook-Air-de-Pablo.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8311128384] Host "[IP] 192.168.1.67 [Port] 0 [Flags] 2 [Guid] 4292877392 [EditorId] 4292877392 [Version] 1048832 [Id] OSXEditor(0,MacBook-Air-de-Pablo.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 3.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.11f1 (621cd60d08fd)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.2.11f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/pablosalas/Documents/GitHub/Somnolencia/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.2.11f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.2.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.2.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56343
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.2.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.2.11f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004934 seconds.
+- Loaded All Assemblies, in  0.358 seconds
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.330 seconds
+Domain Reload Profiling:
+	ReloadAssembly (209ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (144ms)
+				TypeCache.Initialize (143ms)
+					TypeCache.ScanAssembly (142ms)
+				ResolveRequiredComponents (0ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (256ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/pablosalas/Documents/GitHub/Somnolencia/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/pablosalas/Documents/GitHub/Somnolencia/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.819 seconds
+Refreshing native plugins compatible for Editor in 1.56 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.876 seconds
+Domain Reload Profiling:
+	ReloadAssembly (214ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		LoadAllAssembliesAndSetupDomain (605ms)
+			LoadAssemblies (267ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (388ms)
+				TypeCache.Initialize (360ms)
+					TypeCache.ScanAssembly (356ms)
+				ResolveRequiredComponents (7ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (661ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (554ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.2.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
+Refreshing native plugins compatible for Editor in 2.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3489 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (79.3 KB). Loaded Objects now: 3959.
+Memory consumption went from 159.7 MB to 159.7 MB.
+Total: 9.585167 ms (FindLiveObjects: 0.614667 ms CreateObjectMapping: 0.250125 ms MarkObjects: 8.464583 ms  DeleteObjects: 0.254583 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 311110.254236 seconds.
+  path: Assets/PlantsPackage/Materials/plants3.mat
+  artifactKey: Guid(c45628e9a660ebe4d87bf9035782e68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantsPackage/Materials/plants3.mat using Guid(c45628e9a660ebe4d87bf9035782e68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32301273525648ae24cfc1b9162400ba') in 0.533838 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/TreeLeaves.mat
+  artifactKey: Guid(5a2c0c63420584a7c99a4f89a19e51dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/TreeLeaves.mat using Guid(5a2c0c63420584a7c99a4f89a19e51dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48bb64c9ed9fb490b1031bc1d649bd7b') in 0.164269 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/TreeTrunk.mat
+  artifactKey: Guid(2f225ce8f2fae4ea3b08c9298a6f25e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/TreeTrunk.mat using Guid(2f225ce8f2fae4ea3b08c9298a6f25e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903e561ee580a1c4da357023bd390f09') in 0.013708 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Materials/Sink.mat
+  artifactKey: Guid(8dfbb535d399e334a82c6ba9c04fd088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Materials/Sink.mat using Guid(8dfbb535d399e334a82c6ba9c04fd088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659bb384d47461dde859746607f289eb') in 0.608835 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Materials/MaterialsScene/WhiteWoodFloor.mat
+  artifactKey: Guid(fe72d7e1edb814bf8958ee184e649848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/MaterialsScene/WhiteWoodFloor.mat using Guid(fe72d7e1edb814bf8958ee184e649848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f821e6f1b83862cb118395ea4600bab') in 0.072757 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/PlantsPackage/Materials/plants6.mat
+  artifactKey: Guid(629d76a870d66a74baa81cbf050fd539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantsPackage/Materials/plants6.mat using Guid(629d76a870d66a74baa81cbf050fd539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2603959d87aaf989a0a69663f74838a') in 0.011261 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Models/Sink.obj
+  artifactKey: Guid(f399b5092c1723f4aadcd2ee690631ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Models/Sink.obj using Guid(f399b5092c1723f4aadcd2ee690631ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19fd82bd74627bb23efaed21ca7514f3') in 0.119889 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.561448 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Models/FridgeSBS.fbx
+  artifactKey: Guid(b37603f8ea8ba83489df2180bfd8eef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Models/FridgeSBS.fbx using Guid(b37603f8ea8ba83489df2180bfd8eef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0798416a22784faf56a93db6a3b5f547') in 0.034020 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/AllSkyFree/Night MoonBurst/Night Moon Burst.mat
+  artifactKey: Guid(c494c335823f54b52b2e87e1b7a63a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Night MoonBurst/Night Moon Burst.mat using Guid(c494c335823f54b52b2e87e1b7a63a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7446472734bf38ffe45be7d45a49b8b8') in 0.118724 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Materials/MaterialsScene/MosaicoWallWhite.mat
+  artifactKey: Guid(5a41e62aabb7d4ed8b450312598863b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/MaterialsScene/MosaicoWallWhite.mat using Guid(5a41e62aabb7d4ed8b450312598863b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7c3aa0c547b35061e52bd5e6080910') in 0.014682 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/PlantsPackage/Materials/MySkybox.mat
+  artifactKey: Guid(b1c6b91bcbd3f964eabad6484bf0046c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantsPackage/Materials/MySkybox.mat using Guid(b1c6b91bcbd3f964eabad6484bf0046c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3818110dbdbd55f440b4774d1cadf8') in 0.232858 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.721961 seconds.
+  path: Assets/Materials/MaterialsScene/GrayColor.mat
+  artifactKey: Guid(e711429e05a8a41c793467a048f4d96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/MaterialsScene/GrayColor.mat using Guid(e711429e05a8a41c793467a048f4d96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31cc7c8ac2af9d4dea07198ad1960669') in 0.009471 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Models/Fridge.fbx
+  artifactKey: Guid(7791aa6beaaa15148b5287a0538526d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Models/Fridge.fbx using Guid(7791aa6beaaa15148b5287a0538526d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8146c3ed543ab7f4f406c8e28fa33fb') in 0.020716 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Materials/Lamp.mat
+  artifactKey: Guid(726dfc65340b62e4f8b5aae8e1684d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Materials/Lamp.mat using Guid(726dfc65340b62e4f8b5aae8e1684d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21ef5eaae165fbacc20a2aed9a524d8') in 0.270942 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink Equirect.mat
+  artifactKey: Guid(fe4e130f9947345a2b213cb5038851a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink Equirect.mat using Guid(fe4e130f9947345a2b213cb5038851a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3700aee664354947eb0a70e3c95f63') in 0.206740 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/AllSkyFree/Deep Dusk/Deep Dusk Equirect.mat
+  artifactKey: Guid(c82a334cf5a5e47978749c210cee72a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Deep Dusk/Deep Dusk Equirect.mat using Guid(c82a334cf5a5e47978749c210cee72a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43907fc714010857ee045f76bbc6abeb') in 0.038654 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/PlantsPackage/Materials/FloorMat.mat
+  artifactKey: Guid(26defe990c35d7842af65bee3f4e8638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantsPackage/Materials/FloorMat.mat using Guid(26defe990c35d7842af65bee3f4e8638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2c10d40ca1501171234eadbcce84d9') in 0.009403 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/AllSkyFree/Deep Dusk/Deep Dusk.mat
+  artifactKey: Guid(b4f152e0498484391a9f0d5a1facf03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Deep Dusk/Deep Dusk.mat using Guid(b4f152e0498484391a9f0d5a1facf03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a5b821acc7027fef61c5adc45e34c61') in 0.033118 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Models/Footstool.obj
+  artifactKey: Guid(404ddee87b5be304d907ddee409c3506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Models/Footstool.obj using Guid(404ddee87b5be304d907ddee409c3506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90f7358d029c6f4da4f638126ed8893') in 0.038372 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset.mat
+  artifactKey: Guid(7416536dbe0334cfd888dd1beb75a9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset.mat using Guid(7416536dbe0334cfd888dd1beb75a9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b64844d3f7f8429e8c3c0cf6245a5b4') in 0.838421 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/AllSkyFree/Cartoon Base BlueSky/Day_BlueSky_Nothing Equirect.mat
+  artifactKey: Guid(73324b55f67f54c7bbf43204788b8bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Cartoon Base BlueSky/Day_BlueSky_Nothing Equirect.mat using Guid(73324b55f67f54c7bbf43204788b8bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03f7b1fcfe6bdb22ca983402ba8b744') in 0.047292 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Materials/Main.mat
+  artifactKey: Guid(f7bbd21b1298745458209aed31d9c489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Materials/Main.mat using Guid(f7bbd21b1298745458209aed31d9c489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656a45ddd0ea55354943818808a76344') in 0.011135 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/AllSkyFree/Cartoon Base BlueSky/Day_BlueSky_Nothing.mat
+  artifactKey: Guid(c56e28e54cac24b04ae3dd957d214534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Cartoon Base BlueSky/Day_BlueSky_Nothing.mat using Guid(c56e28e54cac24b04ae3dd957d214534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332bb8ed669d092024036b41c21aeb0e') in 0.022827 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Models/Seperated For Animation/Stovetop.fbx
+  artifactKey: Guid(a458eddf41afe1a4793dca03fc1105be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Models/Seperated For Animation/Stovetop.fbx using Guid(a458eddf41afe1a4793dca03fc1105be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783a204c328ea681eb43b3bf09cab866') in 0.029974 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Materials/Dresser Dresser.mat
+  artifactKey: Guid(220bfb2cf5588a24f896a312c6edfc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Materials/Dresser Dresser.mat using Guid(220bfb2cf5588a24f896a312c6edfc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041b04298c73ffb32e483027c0c07991') in 0.027838 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Models/Stovetop.fbx
+  artifactKey: Guid(01bb90b911a563f4997a757b1861c000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Models/Stovetop.fbx using Guid(01bb90b911a563f4997a757b1861c000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6724d1093ba992bdf6e63d56ec33dc90') in 0.037581 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Models/Dresser.obj
+  artifactKey: Guid(e220328c34bca0348a4ada832cf83493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Models/Dresser.obj using Guid(e220328c34bca0348a4ada832cf83493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ac01e56f1c3cdbe674a29412798702') in 0.152270 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 1.490743 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Models/Bed.obj
+  artifactKey: Guid(4122dec1742e2904f93fe455f244efa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Models/Bed.obj using Guid(4122dec1742e2904f93fe455f244efa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0fedf9ec7f10b7683784629c1c2a30') in 0.190679 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.064299 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Flag_Red.mat
+  artifactKey: Guid(33230baef4dda4cf4bd25fcb15d0d06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Flag_Red.mat using Guid(33230baef4dda4cf4bd25fcb15d0d06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b510c874bd6caa1b09ae93e789d46c') in 0.014571 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_LightIllum.mat
+  artifactKey: Guid(ff33c7fce672541f095331a057da80f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_LightIllum.mat using Guid(ff33c7fce672541f095331a057da80f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c8a4fa7c4a2fadfe8d6778123f590e') in 0.016442 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_TreeLeaves.mat
+  artifactKey: Guid(2f31f4440de60444b8dd94d4d64b3c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_TreeLeaves.mat using Guid(2f31f4440de60444b8dd94d4d64b3c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd758fdc11ee29924c831dd2f27f46cde') in 0.009144 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_LightMetal.mat
+  artifactKey: Guid(3e33a38e2349f447d9fb9ae62269009c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_LightMetal.mat using Guid(3e33a38e2349f447d9fb9ae62269009c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e946378966820b94fe8a0f4a85af0788') in 0.005635 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Materials/MaterialsScene/AzulejoFloor.mat
+  artifactKey: Guid(288a8119b47e5484b81a22445aea5be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/MaterialsScene/AzulejoFloor.mat using Guid(288a8119b47e5484b81a22445aea5be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf077f44a672ded5091eb7d682b8be5') in 0.010127 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Materials/Bathtub.mat
+  artifactKey: Guid(fb4a7718ec59d14428d8779a41869c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Materials/Bathtub.mat using Guid(fb4a7718ec59d14428d8779a41869c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71b1e21afe0c662bcc8dfad4c341cf7') in 0.024996 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Landscape.mat
+  artifactKey: Guid(010dd68491d1d4a1692a6d2272e5cb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Landscape.mat using Guid(010dd68491d1d4a1692a6d2272e5cb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d53706f0016124aafadebf2985a8dad') in 0.007913 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_FlagGreen.mat
+  artifactKey: Guid(0acfc71c325c54b92add0b07097b6c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_FlagGreen.mat using Guid(0acfc71c325c54b92add0b07097b6c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7e550c1c3636f1361c195048a1a041') in 0.016051 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_MountainGlow.mat
+  artifactKey: Guid(1d924399aa96d4378b9c507b7669a4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_MountainGlow.mat using Guid(1d924399aa96d4378b9c507b7669a4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85da0327b8795ae2716df93b47d386fd') in 0.296321 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.071459 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Models/Seperated For Animation/Dryer.fbx
+  artifactKey: Guid(da85c7832cc94284ea2e41c9715697e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Models/Seperated For Animation/Dryer.fbx using Guid(da85c7832cc94284ea2e41c9715697e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5748d7f1a802f893df4c53556fdee2bf') in 0.066924 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Materials/Materials/AdobeStock_163881016.mat
+  artifactKey: Guid(47948b51c95424d188cf0012c93584df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/AdobeStock_163881016.mat using Guid(47948b51c95424d188cf0012c93584df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ca0fe8353a325cf1181982ea6fe3e3') in 0.076770 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Flag_Blue.mat
+  artifactKey: Guid(8e64a72f2cb9c45bba4b11d98489b11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Flag_Blue.mat using Guid(8e64a72f2cb9c45bba4b11d98489b11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53f53b2a4c856afd4b130b172126f57') in 0.013801 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Models/Seperated For Animation/Fridge_SBS.fbx
+  artifactKey: Guid(4ef85326d2b48fb48bee81014892b40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Models/Seperated For Animation/Fridge_SBS.fbx using Guid(4ef85326d2b48fb48bee81014892b40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e851951e28fa79fd8f076f5da8bec91') in 0.136474 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet Equirect.mat
+  artifactKey: Guid(13f6e5eed33d84c76979f1ec06b5e48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet Equirect.mat using Guid(13f6e5eed33d84c76979f1ec06b5e48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f72b4d75f61388d2aff7297a5b3ddc5') in 0.033921 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/PlantsPackage/FBX/Plants/Materials/10 - Default.mat
+  artifactKey: Guid(9fa6e217af7ff42d1955fb1997bd3c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantsPackage/FBX/Plants/Materials/10 - Default.mat using Guid(9fa6e217af7ff42d1955fb1997bd3c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0feb97254dffa062c87691a0b258d4b4') in 0.009028 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Building.mat
+  artifactKey: Guid(4ecd3f24879b0402c92f21617e3db5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Building.mat using Guid(4ecd3f24879b0402c92f21617e3db5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0999287be7cc1553df04c12362cf31d') in 0.010707 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.044295 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Models/Seperated For Animation/Stove.fbx
+  artifactKey: Guid(18925ea6c93987e49979c5fcda598980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Models/Seperated For Animation/Stove.fbx using Guid(18925ea6c93987e49979c5fcda598980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96a535638690b2495e8a1ae5d3ef392') in 0.167369 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Models/FanV2.fbx
+  artifactKey: Guid(c77e880e4f8b4c14a9a7d8350f9d0ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Models/FanV2.fbx using Guid(c77e880e4f8b4c14a9a7d8350f9d0ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e4e6f91d28d7fbd2e77afaaabc84a46') in 0.025887 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Models/CoffeeMaker.fbx
+  artifactKey: Guid(3241337d8654d9642b6e1340cb70c2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Models/CoffeeMaker.fbx using Guid(3241337d8654d9642b6e1340cb70c2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39634cb19f4d804ffd29e623198fe1b') in 0.033991 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Models/Seperated For Animation/Mixer.fbx
+  artifactKey: Guid(ea8e93118a7927544a41c3ed730ce340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Models/Seperated For Animation/Mixer.fbx using Guid(ea8e93118a7927544a41c3ed730ce340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752c72476d4c5c63393f349aacc76336') in 0.029819 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8

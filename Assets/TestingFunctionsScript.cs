@@ -59,6 +59,7 @@ public class TestingFunctionsScript : MonoBehaviour
         if (sound2.GetComponent<AudioSource>().pitch < -0.1f)
         {
             soundTest.SetActive(true);
+            sound2.SetActive(false);
         }
     }
     

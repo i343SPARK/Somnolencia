@@ -103,6 +103,7 @@
      <None Include="Library/PackageCache/com.unity.editorcoroutines@1.0.0/package.json" />
      <None Include="Library/PackageCache/com.unity.timeline@1.7.3/ValidationExceptions.json" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.0/package.json" />
+     <Folder Include="Assets/Models/Props" />
      <Folder Include="Library/PackageCache/com.unity.timeline@1.7.3" />
      <Folder Include="Library/PackageCache/com.unity.ai.navigation@1.1.1/Tests" />
      <Folder Include="Assets/PlantsPackage/FBX/Plants" />
@@ -152,6 +153,7 @@
      <None Include="Library/PackageCache/com.unity.probuilder@5.0.6/Content/Shader/SmoothingPreview.shader" />
      <Folder Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/Editor Resources/Textures" />
      <Folder Include="Assets/Alstrainfinite/KitchenAppliances/Models" />
+     <Folder Include="Assets/Models" />
      <Folder Include="Library/PackageCache/com.unity.editorcoroutines@1.0.0" />
      <Folder Include="Assets/CandleStick" />
      <Folder Include="Assets/Mini First Person Controller" />
@@ -212,7 +214,9 @@
      <Folder Include="Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/lib" />
      <Folder Include="Library/PackageCache/com.unity.probuilder@5.0.6/Content/Icons/Tools" />
      <Folder Include="Library/PackageCache/com.unity.probuilder@5.0.6/Content/Material" />
+     <Folder Include="Assets/Models/Props/Sandwich/Source" />
      <None Include="Library/PackageCache/com.unity.probuilder@5.0.6/Content/Shader/SelectionPicker.shader" />
+     <Folder Include="Assets/Models/Props/Sandwich" />
      <Folder Include="Assets/Materials/MaterialsRepeats" />
      <Folder Include="Library/PackageCache/com.unity.probuilder@5.0.6/Content/Material/Textures" />
      <None Include="Library/PackageCache/com.unity.probuilder@5.0.6/Content/Shader/FaceHighlight.shader" />

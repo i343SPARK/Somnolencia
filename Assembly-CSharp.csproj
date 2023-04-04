@@ -51,6 +51,7 @@
      <Compile Include="Assets/Mini First Person Controller/Scripts/Components/GroundCheck.cs" />
      <Compile Include="Assets/TestingFunctionsScript.cs" />
      <Compile Include="Assets/Mini First Person Controller/Scripts/Components/Zoom.cs" />
+     <Compile Include="Assets/AdministrativeDisplayAndInteract.cs" />
      <Compile Include="Assets/TPFirstLevel.cs" />
      <Compile Include="Assets/Mini First Person Controller/Scripts/FirstPersonMovement.cs" />
      <Compile Include="Assets/Mini First Person Controller/Scripts/FirstPersonLook.cs" />

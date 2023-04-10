@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2788312890910843502}
   - component: {fileID: 6570006290721228906}
-  - component: {fileID: 8457324447634663621}
+  - component: {fileID: 4198441132432365431}
   m_Layer: 0
   m_Name: SandwichObject
   m_TagString: Untagged
@@ -55,7 +55,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.36, y: 0.11, z: 0.88}
   m_Center: {x: 0, y: 0, z: -0.16}
---- !u!114 &8457324447634663621
+--- !u!114 &4198441132432365431
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -64,9 +64,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1450308828463537524}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae66f02c0fd5f457894fde02883892c8, type: 3}
+  m_Script: {fileID: 11500000, guid: 6fed662cfd9224dd8b10ac7b1408b508, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UIKeyInteractive: {fileID: 0}
 --- !u!1001 &1097698063670704479
 PrefabInstance:
   m_ObjectHideFlags: 0

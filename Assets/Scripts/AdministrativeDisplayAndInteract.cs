@@ -8,16 +8,19 @@ public class AdministrativeDisplayAndInteract : MonoBehaviour
 {
 
     public GameObject UIKeyInteractive;
+    MicroWageEvent microWageEvent;
+    
     // Start is called before the first frame update
     void Start()
     {
         UIKeyInteractive.GetComponent<ShowUIKeyInteractive>();
+        microWageEvent = GameObject.FindWithTag("Microwave").GetComponent<MicroWageEvent>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        UIKeyInteractive.GetComponent<ShowUIKeyInteractive>().Interact(gameObject);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -26,6 +29,7 @@ public class AdministrativeDisplayAndInteract : MonoBehaviour
         {
             Debug.Log("Player entered the administrative area");
             UIKeyInteractive.SetActive(true);
+            microWageEvent.SetMicrowaveEvent();
         }
     }
 
@@ -35,6 +39,7 @@ public class AdministrativeDisplayAndInteract : MonoBehaviour
         {
             Debug.Log("Player exited the administrative area");
             UIKeyInteractive.SetActive(false);
+            microWageEvent.DisableMicrowaveEvent();
         }
     }
 }

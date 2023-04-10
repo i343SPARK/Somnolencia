@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - UIKey
+  - Microwave
   layers:
   - Default
   - TransparentFX

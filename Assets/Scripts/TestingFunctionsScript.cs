@@ -5,10 +5,7 @@ using UnityEngine;
 // comenta el codigo cuando puedas, es para que no se me olvide que hace cada cosa
 public class TestingFunctionsScript : MonoBehaviour
 {
-    public GameObject lights; // luces de la escena
-    public GameObject sound; // sonido de las luces
-    public GameObject sound2; // musica de ambiente
-    public GameObject soundTest;
+    public GameObject lights, sound, sound2, soundTest, fadeScreen; // luces de la escena, sonido de las luces, musica de ambiente, sonido de prueba
     private bool toggleLights = true; // variable para activar y desactivar las luces
     private bool secureSound = false; // variable para asegurar que el sonido se desactive hasta que el pitch llegue a cero
     
@@ -16,7 +13,9 @@ public class TestingFunctionsScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-      soundTest.SetActive(false);   
+      soundTest.SetActive(false);  
+      fadeScreen.SetActive(true);
+      
     }
 
     // Update is called once per frame

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ShowUIKeyInteractive : MonoBehaviour
 {
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +23,7 @@ public class ShowUIKeyInteractive : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             Destroy(obj);
+            gameObject.SetActive(false);
         }
     }
 }

@@ -9,7 +9,7 @@ public class AudioPlayEvent : MonoBehaviour
 
     //Se llaman los Audios del mismo componente, y se categorizan en cuestion
     //a como se van llamando
-    public AudioSource audio1, audio2, audio3;
+    public AudioSource audio1, audio2, audio3, audio4;
     
     //Reproduce el primer audio del evento del microondas
     public void PlayOpenSound()
@@ -21,4 +21,25 @@ public class AudioPlayEvent : MonoBehaviour
     {
         audio2.Play();
     }
+    
+    public void PlaySecuenceSound()
+    {
+        audio3.Play();
+    }
+
+    public void StopSecuenceSound()
+    {
+        audio3.Stop();
+    }
+    
+    public void PlayElectricitySound()
+    {
+        audio4.Play();
+    }
+    
+    public void StopElectricitySound()
+    {
+        audio4.Stop();
+    }
+    
 }

@@ -366,7 +366,7 @@
 "Assets/Asset Store/Mini First Person Controller/Scripts/Components/Zoom.cs"
 "Assets/Asset Store/Mini First Person Controller/Scripts/FirstPersonLook.cs"
 "Assets/Asset Store/Mini First Person Controller/Scripts/FirstPersonMovement.cs"
-"Assets/AudioPlayEvent.cs"
+"Assets/Scripts/AudioPlayEvent.cs"
 "Assets/Scripts/MicroWageEvent.cs"
 "Assets/Scripts/SandwichEventScript.cs"
 "Assets/Scripts/ShowUIKeyInteractive.cs"

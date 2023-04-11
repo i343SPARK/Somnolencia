@@ -8,7 +8,11 @@ using UnityEngine;
 public class MicroWageEvent : MonoBehaviour
 {
     // Se llama al componente de la UI que indica que se puede interactuar
-    public GameObject _uIKeyInteractive;
+    public GameObject _uIKeyInteractive, camperaPlayer, cameraScene;
+    public Animator _animatorMicrowave;
+
+    bool secureSet = false;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +23,15 @@ public class MicroWageEvent : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (secureSet)
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                camperaPlayer.SetActive(false);
+                cameraScene.SetActive(true);
+                _animatorMicrowave.Play("MicrowaveAnimation");
+            }
+        }
     }
 
     //Funcion que se activa cuando el jugador entra en el area de colision del objeto
@@ -31,6 +43,7 @@ public class MicroWageEvent : MonoBehaviour
             //Debug.Log("Player entered the microwave area");
             //Se activa la UI que indica que se puede interactuar
             _uIKeyInteractive.SetActive(true);
+            secureSet = true;
         }
     }
 
@@ -41,6 +54,7 @@ public class MicroWageEvent : MonoBehaviour
             //Debug.Log("Player exited the microwave area");
             //Se desactiva la UI que indica que se puede interactuar
             _uIKeyInteractive.SetActive(false);
+            secureSet = false;
         }
     }
 

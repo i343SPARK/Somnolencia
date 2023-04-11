@@ -59,7 +59,6 @@
      <Compile Include="Assets/Scripts/TestingFunctionsScript.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" />
      <Compile Include="Assets/Asset Store/Mini First Person Controller/Scripts/FirstPersonMovement.cs" />
-     <Compile Include="Assets/AudioPlayEvent.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" />
      <Compile Include="Assets/Scripts/SandwichEventScript.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs" />
@@ -91,6 +90,7 @@
      <Compile Include="Assets/Asset Store/Mini First Person Controller/Scripts/Components/Jump.cs" />
      <Compile Include="Assets/Scripts/MicroWageEvent.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
+     <Compile Include="Assets/Scripts/AudioPlayEvent.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets/ProBuilder Data" />

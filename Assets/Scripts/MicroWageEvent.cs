@@ -30,6 +30,7 @@ public class MicroWageEvent : MonoBehaviour
                 camperaPlayer.SetActive(false);
                 cameraScene.SetActive(true);
                 _animatorMicrowave.Play("MicrowaveAnimation");
+                _uIKeyInteractive.GetComponent<ShowUIKeyInteractive>().Interact();
             }
         }
     }

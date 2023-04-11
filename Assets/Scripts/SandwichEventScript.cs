@@ -30,7 +30,7 @@ public class SandwichEventScript : MonoBehaviour
     {
         //Se llama a la funcion Interact del script ShowUIKeyInteractive el cual se encarga
         //de desactivar la UI cuando se presiona la E
-        uIKeyInteractive.GetComponent<ShowUIKeyInteractive>().Interact(gameObject);
+        uIKeyInteractive.GetComponent<ShowUIKeyInteractive>().Interact();
 
         //Si el jugador esta cerca del objeto y presiona la E, se destruye el objeto, asegurando 
         //que el jugador este cerca y despues de presionar la E

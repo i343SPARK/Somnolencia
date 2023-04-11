@@ -16,7 +16,7 @@ public class TestingFunctionsScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     { 
-        // Se asegura que se desactivan las luces y que se activa el sonido
+        // Se asegura que se desactivan las luces y que se activa la pantalla de fade
         soundTest.SetActive(false);
         fadeScreen.SetActive(true);
       

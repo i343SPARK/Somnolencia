@@ -10,7 +10,14 @@ public class AudioPlayEvent : MonoBehaviour
     //Se llaman los Audios del mismo componente, y se categorizan en cuestion
     //a como se van llamando
     public AudioSource audio1, audio2, audio3, audio4;
-    
+    PointOfMicrowave _pointOfMicrowave;
+    public GameObject player2;
+
+    void Start()
+    {
+        _pointOfMicrowave = GameObject.FindWithTag("BrainCode1").GetComponent<PointOfMicrowave>();
+    }
+
     //Reproduce el primer audio del evento del microondas
     public void PlayOpenSound()
     {
@@ -40,6 +47,16 @@ public class AudioPlayEvent : MonoBehaviour
     public void StopElectricitySound()
     {
         audio4.Stop();
+    }
+    
+    public void PlayFunctionMoment()
+    {
+        _pointOfMicrowave.ActivationOfMicrowaveEvent();
+    }
+    
+    public void SetPlayerOn()
+    {
+        player2.SetActive(true);
     }
     
 }

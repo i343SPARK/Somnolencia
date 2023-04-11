@@ -7,7 +7,7 @@ public class ShowUIKeyInteractive : MonoBehaviour
 {
     
     //Funcion recibe el objeto a interactuar y al precionar la E destruye el objeto
-    public void Interact(GameObject obj)
+    public void Interact()
     {
         //Si se preciona la tecla E se desactiva la UI
         if (Input.GetKeyDown(KeyCode.E))

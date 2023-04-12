@@ -8,7 +8,7 @@ using UnityEngine;
 public class MicroWageEvent : MonoBehaviour
 {
     // Se llama al componente de la UI que indica que se puede interactuar
-    public GameObject _uIKeyInteractive, camperaPlayer, cameraScene;
+    public GameObject _uIKeyInteractive, cameraPlayer, cameraScene;
     public Animator _animatorMicrowave;
 
     bool secureSet = false;
@@ -27,7 +27,7 @@ public class MicroWageEvent : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                camperaPlayer.SetActive(false);
+                Destroy(cameraPlayer);
                 cameraScene.SetActive(true);
                 _animatorMicrowave.Play("MicrowaveAnimation");
                 _uIKeyInteractive.GetComponent<ShowUIKeyInteractive>().Interact();

@@ -11,11 +11,13 @@ public class AudioPlayEvent : MonoBehaviour
     //a como se van llamando
     public AudioSource audio1, audio2, audio3, audio4;
     PointOfMicrowave _pointOfMicrowave;
-    public GameObject player2;
+    UniverseController _universeController;
+    public GameObject player2, camera;
 
     void Start()
     {
         _pointOfMicrowave = GameObject.FindWithTag("BrainCode1").GetComponent<PointOfMicrowave>();
+        _universeController = GameObject.FindWithTag("BrainCode1").GetComponent<UniverseController>();
     }
 
     //Reproduce el primer audio del evento del microondas
@@ -57,6 +59,19 @@ public class AudioPlayEvent : MonoBehaviour
     public void SetPlayerOn()
     {
         player2.SetActive(true);
+        camera.GetComponent<AudioListener>().enabled = false;
+        camera.SetActive(false);
+        gameObject.SetActive(false);
     }
     
+    public void FadeIn()
+    {
+        _universeController.FadeIn();
+    }
+    
+    public void FadeOut()
+    {
+        _universeController.FadeOut();
+    }
+
 }

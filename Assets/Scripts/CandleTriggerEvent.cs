@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class CandleTriggerEvent : MonoBehaviour
 {
-    public GameObject _UIKeyInteractive, candleHUD, wallBlock;
+    public GameObject _UIKeyInteractive, candleHUD, wallBlock, mysterySound;
     
     bool secure = false;
     // Start is called before the first frame update
@@ -22,6 +22,7 @@ public class CandleTriggerEvent : MonoBehaviour
             _UIKeyInteractive.GetComponent<ShowUIKeyInteractive>().Interact();
             candleHUD.SetActive(true);
             wallBlock.SetActive(false);
+            mysterySound.SetActive(true);
             Destroy(gameObject);
         }
     }

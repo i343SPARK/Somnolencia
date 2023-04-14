@@ -1,0 +1,36 @@
+newmtl Iron_pure_Mat
+Ni 1.6
+Ka 0 0 0
+map_Ke Black_system_shower/Iron_pure_glow.png
+d 1
+Kd 0 0 0
+adobe_map_normal Black_system_shower/Iron_pure_normal.png
+map_d Black_system_shower/Iron_pure_opacity.png
+Tr 0
+illum 7
+Ks 1 1 1
+adobe_translucence 0.0
+adobe_map_roughness Black_system_shower/Iron_pure_roughness.png
+adobe_interior_color 1.0 1.0 1.0
+adobe_density 0.0
+map_Pm Black_system_shower/Iron_pure_metallic.png
+Ns 16
+map_Kd Black_system_shower/Iron_pure_baseColor.png
+newmtl Steel_painted_Mat
+Ni 1.6
+Ka 0 0 0
+map_Ke Black_system_shower/Steel_painted_glow.png
+d 1
+Kd 0 0 0
+adobe_map_normal Black_system_shower/Steel_painted_normal.png
+map_d Black_system_shower/Steel_painted_opacity.png
+Tr 0
+illum 7
+Ks 1 1 1
+adobe_translucence 0.0
+adobe_map_roughness Black_system_shower/Steel_painted_roughness.png
+adobe_interior_color 1.0 1.0 1.0
+adobe_density 0.0
+map_Pm Black_system_shower/Steel_painted_metallic.png
+Ns 16
+map_Kd Black_system_shower/Steel_painted_baseColor.png

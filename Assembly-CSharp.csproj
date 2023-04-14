@@ -47,7 +47,6 @@
   <ItemGroup>
      <Compile Include="Assets/Asset Store/Mini First Person Controller/Scripts/FirstPersonLook.cs" />
      <Compile Include="Assets/Asset Store/Mini First Person Controller/Scripts/Components/Zoom.cs" />
-     <Compile Include="Assets/UniverseController.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" />
@@ -85,6 +84,7 @@
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" />
      <Compile Include="Assets/Scripts/TPFirstLevel.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs" />
+     <Compile Include="Assets/Scripts/UniverseController.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" />
@@ -93,6 +93,7 @@
      <Compile Include="Assets/Scripts/MicroWageEvent.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
      <Compile Include="Assets/Scripts/CandleHUDSet.cs" />
+     <Compile Include="Assets/WindowScriptEvent.cs" />
      <Compile Include="Assets/Scripts/CandleTriggerEvent.cs" />
      <Compile Include="Assets/Scripts/DialogueActivatorDoor.cs" />
      <Compile Include="Assets/Scripts/AudioPlayEvent.cs" />

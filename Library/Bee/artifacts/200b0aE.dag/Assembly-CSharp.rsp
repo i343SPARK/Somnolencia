@@ -371,6 +371,7 @@
 "Assets/Scripts/CandleTriggerEvent.cs"
 "Assets/Scripts/Dialogue.cs"
 "Assets/Scripts/DialogueActivatorDoor.cs"
+"Assets/Scripts/DialogueScriptActivation.cs"
 "Assets/Scripts/MicroWageEvent.cs"
 "Assets/Scripts/PointOfMicrowave.cs"
 "Assets/Scripts/SandwichEventScript.cs"

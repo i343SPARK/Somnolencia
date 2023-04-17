@@ -93,6 +93,7 @@
      <Compile Include="Assets\Asset Store\Mini First Person Controller\Scripts\Components\Jump.cs" />
      <Compile Include="Assets\Scripts\MicroWageEvent.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+     <Compile Include="Assets\Scripts\DialogueScriptActivation.cs" />
      <Compile Include="Assets\Scripts\CandleHUDSet.cs" />
      <Compile Include="Assets\Scripts\CandleTriggerEvent.cs" />
      <Compile Include="Assets\Scripts\DialogueActivatorDoor.cs" />

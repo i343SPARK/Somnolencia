@@ -6,6 +6,7 @@ using UnityEngine;
 public class Dialogue : MonoBehaviour
 {
     public TextMeshProUGUI textComponent; //Reference the text component of Text Mesh pro 
+    public GameObject panelText;
     public string[] lines; //A place where to store the dialogue lines that we can specify later on
     public float textSpeed; //Speed in which the dialogue will be displayed
     private int index; //An index which will help us track where we are in the conversation
@@ -24,6 +25,7 @@ public class Dialogue : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        panelText.SetActive(true);
         textComponent.text = string.Empty; //It CLEANS the dialogue box for a new use 
         StartDialogue(); //Starts dialogue method
     }
@@ -74,7 +76,9 @@ public class Dialogue : MonoBehaviour
         else{
             textComponent.text = string.Empty;
             PlayerController.enabled = true;
+            panelText.SetActive(false);
             gameObject.SetActive(false); //It turns itself off
+
         }
     }
 }

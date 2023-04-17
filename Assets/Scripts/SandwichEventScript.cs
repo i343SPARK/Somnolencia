@@ -38,7 +38,8 @@ public class SandwichEventScript : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                Destroy(gameObject);
+                gameObject.GetComponent<Dialogue>().enabled = true;
+                //Destroy(gameObject);
             }
         }
         

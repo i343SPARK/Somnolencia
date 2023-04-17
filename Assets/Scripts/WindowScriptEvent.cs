@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class WindowScriptEvent : MonoBehaviour
 {
-    public GameObject _UIKeyInteractive, SoundProgresive;
+    public GameObject _UIKeyInteractive, SoundProgresive, dialogueBox;
     public Animator _animator;
     
     bool secure = false;
@@ -23,6 +23,7 @@ public class WindowScriptEvent : MonoBehaviour
             _UIKeyInteractive.GetComponent<ShowUIKeyInteractive>().Interact();
             _animator.Play("WindowEvent");
             SoundProgresive.SetActive(true);
+            dialogueBox.SetActive(true);
             gameObject.GetComponent<BoxCollider>().enabled = false;
         }
     }

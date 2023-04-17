@@ -61,7 +61,7 @@ public class AudioPlayEvent : MonoBehaviour
         player2.SetActive(true);
         camera.GetComponent<AudioListener>().enabled = false;
         camera.SetActive(false);
-        gameObject.SetActive(false);
+        //gameObject.SetActive(false);
     }
     
     public void FadeIn()
@@ -72,6 +72,11 @@ public class AudioPlayEvent : MonoBehaviour
     public void FadeOut()
     {
         _universeController.FadeOut();
+    }
+
+    public void DialogueLightsOut()
+    {
+        gameObject.GetComponent<Dialogue>().enabled = true;
     }
 
 }

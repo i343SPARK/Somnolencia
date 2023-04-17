@@ -369,6 +369,7 @@
 "Assets/Scripts/AudioPlayEvent.cs"
 "Assets/Scripts/CandleHUDSet.cs"
 "Assets/Scripts/CandleTriggerEvent.cs"
+"Assets/Scripts/Dialogue.cs"
 "Assets/Scripts/DialogueActivatorDoor.cs"
 "Assets/Scripts/MicroWageEvent.cs"
 "Assets/Scripts/PointOfMicrowave.cs"
@@ -377,6 +378,7 @@
 "Assets/Scripts/TestingFunctionsScript.cs"
 "Assets/Scripts/TPFirstLevel.cs"
 "Assets/Scripts/UniverseController.cs"
+"Assets/Scripts/WindowScriptEvent.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
@@ -411,7 +413,6 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
-"Assets/WindowScriptEvent.cs"
 -langversion:9.0
 
 /deterministic

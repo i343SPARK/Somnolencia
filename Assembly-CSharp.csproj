@@ -60,6 +60,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
      <Compile Include="Assets\Asset Store\Mini First Person Controller\Scripts\FirstPersonMovement.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+     <Compile Include="Assets\Scripts\Dialogue.cs" />
      <Compile Include="Assets\Scripts\SandwichEventScript.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
      <Compile Include="Assets\Asset Store\Mini First Person Controller\Scripts\Components\Crouch.cs" />
@@ -93,9 +94,9 @@
      <Compile Include="Assets\Scripts\MicroWageEvent.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
      <Compile Include="Assets\Scripts\CandleHUDSet.cs" />
-     <Compile Include="Assets\WindowScriptEvent.cs" />
      <Compile Include="Assets\Scripts\CandleTriggerEvent.cs" />
      <Compile Include="Assets\Scripts\DialogueActivatorDoor.cs" />
+     <Compile Include="Assets\Scripts\WindowScriptEvent.cs" />
      <Compile Include="Assets\Scripts\AudioPlayEvent.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
      <Folder Include="Assets" />
@@ -105,9 +106,11 @@
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Sprites" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <Folder Include="Assets\TextMesh Pro\Sprites" />
+     <Folder Include="Assets\HDRPFurniturePack\Curtain\Models" />
      <Folder Include="Assets\Asset Store\AllSkyFree\_AllSkyFreeDemoEnvironment\Materials" />
      <None Include="Assets\Asset Store\Bed &amp; Bath Furniture Pack\Documentation.txt" />
      <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
+     <Folder Include="Assets\Shower\Black_system_shower" />
      <Folder Include="Assets\Asset Store\Alstrainfinite\KitchenAppliances" />
      <Folder Include="Assets\Asset Store\PlantsPackage\Materials" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -127,14 +130,17 @@
      <Folder Include="Assets\Asset Store\Models\Props" />
      <Folder Include="Assets\Asset Store\PlantsPackage\FBX\Plants" />
      <Folder Include="Assets\Asset Store\AllSkyFree\Cold Sunset" />
+     <Folder Include="Assets\HDRPFurniturePack\Curtain\Materials" />
      <Folder Include="Assets\Asset Store\Alstrainfinite\KitchenAppliances\Prefabs" />
      <Folder Include="Assets\Asset Store\Mini First Person Controller\Materials" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <Folder Include="Assets\Somnolencia" />
      <Folder Include="Assets\Somnolencia\Sounds" />
      <Folder Include="Assets\TextMesh Pro" />
+     <Folder Include="Assets\HDRPFurniturePack\Curtain\Textures" />
      <Folder Include="Assets\Asset Store\AllSkyFree\Night MoonBurst" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts" />
+     <Folder Include="Assets\HDRPFurniturePack\Curtain" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources" />
      <Folder Include="Assets\Asset Store\Mini First Person Controller\Scripts\Components" />
      <Folder Include="Assets\Asset Store\Alstrainfinite\KitchenAppliances\Scenes\Demo Materials" />
@@ -193,6 +199,8 @@
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Textures" />
      <Folder Include="Assets\TextMesh Pro\Documentation" />
      <Folder Include="Assets\Asset Store\Models\Props\Sandwich\Source" />
+     <Folder Include="Assets\Shower" />
+     <Folder Include="Assets\HDRPFurniturePack" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras" />
      <Folder Include="Assets\Somnolencia\Prefabs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />

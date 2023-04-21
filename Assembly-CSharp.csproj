@@ -70,6 +70,7 @@
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" />
+     <Compile Include="Assets/TriggerLuigiFollow.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" />
@@ -90,6 +91,7 @@
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" />
+     <Compile Include="Assets/LuigiFollowPlayer.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
      <Compile Include="Assets/Asset Store/Mini First Person Controller/Scripts/Components/Jump.cs" />
      <Compile Include="Assets/Scripts/MicroWageEvent.cs" />

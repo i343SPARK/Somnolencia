@@ -16,7 +16,8 @@ public class LuigiRotationAndSound : MonoBehaviour
             Debug.Log(transform.rotation.z);
         }
 
-        if (transform.rotation.z < -0.8f)
+        //Si el audio termina de reproducirse se destruye el objeto
+        if (gameObject.GetComponent<AudioSource>().isPlaying == false && transform.rotation.z < -0.8f)
         {
             Destroy(gameObject);
         }
@@ -27,6 +28,7 @@ public class LuigiRotationAndSound : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             secure = true;
+            gameObject.GetComponent<AudioSource>().Play();
         }
     }
 }

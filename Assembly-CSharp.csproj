@@ -51,6 +51,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+     <Compile Include="Assets\TriggerRadioScript.cs" />
      <Compile Include="Assets\Asset Store\Mini First Person Controller\Scripts\Components\FirstPersonAudio.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
      <Compile Include="Assets\Scripts\ShowUIKeyInteractive.cs" />
@@ -132,6 +133,7 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <Folder Include="Assets\Asset Store\Alstrainfinite\KitchenAppliances\Scenes" />
      <Folder Include="Assets\TextMesh Pro\Resources" />
+     <Folder Include="Assets\OldRadio, by Tobiesen\Mesh" />
      <Folder Include="Assets\Asset Store\Models\Props" />
      <Folder Include="Assets\Asset Store\PlantsPackage\FBX\Plants" />
      <Folder Include="Assets\Asset Store\AllSkyFree\Cold Sunset" />
@@ -139,6 +141,7 @@
      <Folder Include="Assets\Asset Store\Alstrainfinite\KitchenAppliances\Prefabs" />
      <Folder Include="Assets\Asset Store\Mini First Person Controller\Materials" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <Folder Include="Assets\OldRadio, by Tobiesen\Prefab" />
      <Folder Include="Assets\Somnolencia" />
      <Folder Include="Assets\Somnolencia\Sounds" />
      <Folder Include="Assets\TextMesh Pro" />
@@ -189,9 +192,11 @@
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Prefabs" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Scenes" />
      <Folder Include="Assets\Asset Store\Alstrainfinite\KitchenAppliances\Materials" />
+     <Folder Include="Assets\OldRadio, by Tobiesen" />
      <Folder Include="Assets\Asset Store\PlantsPackage\FBX" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <Folder Include="Assets\Materials" />
+     <Folder Include="Assets\OldRadio, by Tobiesen\Textures" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <Folder Include="Assets\Asset Store\PlantsPackage\demoScene" />
      <Folder Include="Assets\Asset Store\AllSkyFree\Epic_GloriousPink" />
@@ -204,6 +209,7 @@
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Textures" />
      <Folder Include="Assets\TextMesh Pro\Documentation" />
+     <Folder Include="Assets\OldRadio, by Tobiesen\Materials" />
      <Folder Include="Assets\Asset Store\Models\Props\Sandwich\Source" />
      <Folder Include="Assets\Shower" />
      <Folder Include="Assets\HDRPFurniturePack" />

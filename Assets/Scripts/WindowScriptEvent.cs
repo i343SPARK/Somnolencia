@@ -27,6 +27,7 @@ public class WindowScriptEvent : MonoBehaviour
             dialogueBox.SetActive(true);
             luigiTrigger.SetActive(true);
             gameObject.GetComponent<BoxCollider>().enabled = false;
+            secure = false;
         }
     }
 

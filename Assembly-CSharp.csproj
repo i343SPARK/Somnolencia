@@ -46,17 +46,19 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Asset Store\Mini First Person Controller\Scripts\FirstPersonLook.cs" />
+     <Compile Include="Assets\TriggerEventOneObject.cs" />
      <Compile Include="Assets\Asset Store\Mini First Person Controller\Scripts\Components\Zoom.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+     <Compile Include="Assets\TriggerEventActivator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
-     <Compile Include="Assets\TriggerRadioScript.cs" />
      <Compile Include="Assets\Asset Store\Mini First Person Controller\Scripts\Components\FirstPersonAudio.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
      <Compile Include="Assets\Scripts\ShowUIKeyInteractive.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+     <Compile Include="Assets\Scripts\TriggerRadioScript.cs" />
      <Compile Include="Assets\Scripts\TestingFunctionsScript.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
      <Compile Include="Assets\Scripts\LuigiFollowPlayer.cs" />
@@ -92,6 +94,7 @@
      <Compile Include="Assets\Scripts\UniverseController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+     <Compile Include="Assets\DialogueSceneChange.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
      <Compile Include="Assets\Asset Store\Mini First Person Controller\Scripts\Components\Jump.cs" />

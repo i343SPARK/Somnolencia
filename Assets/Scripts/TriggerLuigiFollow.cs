@@ -20,7 +20,7 @@ public class TriggerLuigiFollow : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Destroy(parent);
+            parent.SetActive(false);
         }
     }
 }

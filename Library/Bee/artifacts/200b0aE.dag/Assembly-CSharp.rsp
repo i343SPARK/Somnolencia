@@ -366,6 +366,7 @@
 "Assets/Asset Store/Mini First Person Controller/Scripts/Components/Zoom.cs"
 "Assets/Asset Store/Mini First Person Controller/Scripts/FirstPersonLook.cs"
 "Assets/Asset Store/Mini First Person Controller/Scripts/FirstPersonMovement.cs"
+"Assets/DialogueSceneChange.cs"
 "Assets/Scripts/AudioPlayEvent.cs"
 "Assets/Scripts/CandleHUDSet.cs"
 "Assets/Scripts/CandleTriggerEvent.cs"
@@ -381,6 +382,7 @@
 "Assets/Scripts/TestingFunctionsScript.cs"
 "Assets/Scripts/TPFirstLevel.cs"
 "Assets/Scripts/TriggerLuigiFollow.cs"
+"Assets/Scripts/TriggerRadioScript.cs"
 "Assets/Scripts/UniverseController.cs"
 "Assets/Scripts/ViewActivationObject.cs"
 "Assets/Scripts/WindowScriptEvent.cs"
@@ -418,7 +420,8 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
-"Assets/TriggerRadioScript.cs"
+"Assets/TriggerEventActivator.cs"
+"Assets/TriggerEventOneObject.cs"
 -langversion:9.0
 
 /deterministic

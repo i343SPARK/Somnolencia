@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class WindowScriptEvent : MonoBehaviour
 {
-    public GameObject _UIKeyInteractive, SoundProgresive, dialogueBox, luigiTrigger;
+    public GameObject _UIKeyInteractive, thirdHouse, dialogueBox, luigiTrigger, secondHouseDown;
     public Animator _animator;
     
     bool secure = false;
@@ -22,7 +22,8 @@ public class WindowScriptEvent : MonoBehaviour
         {
             _UIKeyInteractive.GetComponent<ShowUIKeyInteractive>().Interact();
             _animator.Play("WindowEvent");
-            SoundProgresive.SetActive(true);
+            thirdHouse.SetActive(true);
+            secondHouseDown.SetActive(false);
             dialogueBox.SetActive(true);
             luigiTrigger.SetActive(true);
             gameObject.GetComponent<BoxCollider>().enabled = false;

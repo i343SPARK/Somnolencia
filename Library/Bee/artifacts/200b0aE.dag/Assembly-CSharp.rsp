@@ -366,12 +366,13 @@
 "Assets/Asset Store/Mini First Person Controller/Scripts/Components/Zoom.cs"
 "Assets/Asset Store/Mini First Person Controller/Scripts/FirstPersonLook.cs"
 "Assets/Asset Store/Mini First Person Controller/Scripts/FirstPersonMovement.cs"
-"Assets/DialogueSceneChange.cs"
+"Assets/EventHalfwayTrigger.cs"
 "Assets/Scripts/AudioPlayEvent.cs"
 "Assets/Scripts/CandleHUDSet.cs"
 "Assets/Scripts/CandleTriggerEvent.cs"
 "Assets/Scripts/Dialogue.cs"
 "Assets/Scripts/DialogueActivatorDoor.cs"
+"Assets/Scripts/DialogueSceneChange.cs"
 "Assets/Scripts/DialogueScriptActivation.cs"
 "Assets/Scripts/LuigiFollowPlayer.cs"
 "Assets/Scripts/LuigiRotationAndSound.cs"
@@ -381,6 +382,8 @@
 "Assets/Scripts/ShowUIKeyInteractive.cs"
 "Assets/Scripts/TestingFunctionsScript.cs"
 "Assets/Scripts/TPFirstLevel.cs"
+"Assets/Scripts/TriggerEventActivator.cs"
+"Assets/Scripts/TriggerEventOneObject.cs"
 "Assets/Scripts/TriggerLuigiFollow.cs"
 "Assets/Scripts/TriggerRadioScript.cs"
 "Assets/Scripts/UniverseController.cs"
@@ -420,8 +423,6 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
-"Assets/TriggerEventActivator.cs"
-"Assets/TriggerEventOneObject.cs"
 -langversion:9.0
 
 /deterministic

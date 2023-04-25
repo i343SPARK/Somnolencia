@@ -6,12 +6,14 @@ using UnityEngine;
 public class TriggerEventOneObject : MonoBehaviour
 {
     public GameObject animateActivate, _UIKeyInteractive;
+    public AudioSource sound;
     bool secure = false;
     // Update is called once per frame
     void Update()
     {
         if (secure && Input.GetKeyDown(KeyCode.E))
         {
+            sound.Stop();
             _UIKeyInteractive.GetComponent<ShowUIKeyInteractive>().Interact();
             gameObject.GetComponent<BoxCollider>().enabled = false;
             gameObject.GetComponent<DialogueSceneChange>().enabled = true;

@@ -47,6 +47,16 @@ public class DialogueSceneChange : MonoBehaviour
                 textComponent.text = lines[index];// it will get the current line and instantly fil it out
             }
         }
+        
+        AnimatorStateInfo animState = animator.GetCurrentAnimatorStateInfo(0);
+        if (animState.IsName("DarkScreenInEnded"))
+        {
+            if (animState.normalizedTime >= 1.0f)
+            {
+                Debug.Log("Scene is Over!");
+                SceneManager.LoadScene("Level 4");
+            }
+        }
     }
 
     void StartDialogue() //Method used to start the dialogue 
@@ -82,7 +92,7 @@ public class DialogueSceneChange : MonoBehaviour
             animator.Play("DarkScreenInEnded");
             Debug.Log("Scene is Over!");
             gameObject.GetComponent<DialogueSceneChange>().enabled = false;
-            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+            //si la animator acaba, entonces cambia de escena
         }
     }
 }

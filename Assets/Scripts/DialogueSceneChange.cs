@@ -48,15 +48,15 @@ public class DialogueSceneChange : MonoBehaviour
             }
         }
         
-        AnimatorStateInfo animState = animator.GetCurrentAnimatorStateInfo(0);
-        if (animState.IsName("DarkScreenInEnded"))
-        {
-            if (animState.normalizedTime >= 1.0f)
-            {
-                Debug.Log("Scene is Over!");
-                SceneManager.LoadScene("Level 4");
-            }
-        }
+        // AnimatorStateInfo animState = animator.GetCurrentAnimatorStateInfo(0);
+        // if (animState.IsName("DarkScreenInEnded"))
+        // {
+        //     if (animState.normalizedTime >= 1)
+        //     {
+        //         Debug.Log("Scene is Over!");
+        //         SceneManager.LoadScene("Level 4");
+        //     }
+        // }
     }
 
     void StartDialogue() //Method used to start the dialogue 
@@ -90,7 +90,7 @@ public class DialogueSceneChange : MonoBehaviour
             textComponent.text = string.Empty;
             panelText.SetActive(false);
             animator.Play("DarkScreenInEnded");
-            Debug.Log("Scene is Over!");
+            //Debug.Log("Scene is Over!");
             gameObject.GetComponent<DialogueSceneChange>().enabled = false;
             //si la animator acaba, entonces cambia de escena
         }

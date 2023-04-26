@@ -29,6 +29,7 @@ public class LuigiRotationAndSound : MonoBehaviour
         {
             secure = true;
             gameObject.GetComponent<AudioSource>().Play();
+            gameObject.GetComponent<BoxCollider>().enabled = false;
         }
     }
 }

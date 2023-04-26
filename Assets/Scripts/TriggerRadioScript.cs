@@ -6,6 +6,7 @@ using UnityEngine;
 public class TriggerRadioScript : MonoBehaviour
 {
     public GameObject _UIKeyInteractive, musicAmbient, dialogueBox, doorActitator;
+    public AudioSource whispers;
 
     bool secure = false;
     // Update is called once per frame
@@ -18,6 +19,7 @@ public class TriggerRadioScript : MonoBehaviour
             musicAmbient.SetActive(false);
             gameObject.GetComponent<BoxCollider>().enabled = false;
             doorActitator.SetActive(true);
+            whispers.Stop();
             secure = false;
         }
     }

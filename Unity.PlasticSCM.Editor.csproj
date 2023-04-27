@@ -170,9 +170,9 @@
      <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.1/Editor/PlasticSCM/Views/Diff/DiffPanel.cs" />
      <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.1/Editor/PlasticSCM/UI/Tree/ListViewItemIds.cs" />
      <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.1/Editor/PlasticSCM/UI/DrawActionButton.cs" />
-     <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.1/Editor/PlasticSCM/SwitchModeConfirmationDialog.cs" />
      <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.1/Editor/PlasticSCM/PlasticMenuItem.cs" />
      <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.1/Editor/PlasticSCM/Views/PendingChanges/FilesFilterPatternsMenuBuilder.cs" />
+     <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.1/Editor/PlasticSCM/SwitchModeConfirmationDialog.cs" />
      <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.1/Editor/PlasticSCM/Developer/UpdateReport/UpdateReportLineListViewItem.cs" />
      <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.1/Editor/PlasticSCM/Configuration/ConfigurePartialWorkspace.cs" />
      <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.1/Editor/PlasticSCM/AssetsUtils/RefreshAsset.cs" />
@@ -185,9 +185,9 @@
      <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.1/Editor/PlasticSCM/Views/Changesets/ChangesetsViewMenu.cs" />
      <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.1/Editor/PlasticSCM/UI/GuiEnabled.cs" />
      <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.1/Editor/PlasticSCM/UI/Avatar/GetAvatar.cs" />
-     <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.1/Editor/PlasticSCM/AssetMenu/AssetOperations.cs" />
      <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.1/Editor/PlasticSCM/Configuration/CloudEdition/Welcome/CreateOrganizationPanel.cs" />
      <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.1/Editor/PlasticSCM/AssetMenu/Dialogs/CheckinDialogOperations.cs" />
+     <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.1/Editor/PlasticSCM/AssetMenu/AssetOperations.cs" />
      <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.1/Editor/PlasticSCM/Developer/ProgressOperationHandler.cs" />
      <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.1/Editor/PlasticSCM/WebApi/ChangesetFromCollabCommitResponse.cs" />
      <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.1/Editor/PlasticSCM/Views/CreateWorkspace/ValidRepositoryName.cs" />

@@ -72,3 +72,27 @@ Update Mode: updateDependencies
 The following packages were updated:
   com.unity.collab-proxy from version 2.0.0 to 2.0.1
   com.unity.timeline from version 1.7.3 to 1.7.4
+
+=== Wed Apr 26 13:46:03 2023
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.ads from version 2.0.8 to 4.4.1
+  com.unity.analytics from version 3.2.2 to 3.8.1
+  com.unity.collab-proxy from version 1.2.15 to 2.0.1
+  com.unity.purchasing from version 2.0.3 to 4.7.0
+  com.unity.textmeshpro from version 1.4.1 to 3.0.6
+The following packages were removed:
+  com.unity.package-manager-ui@2.0.8
+
+=== Wed Apr 26 13:46:03 2023
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were added:
+  com.unity.ads@4.4.1
+  com.unity.analytics@3.8.1
+  com.unity.purchasing@4.7.0

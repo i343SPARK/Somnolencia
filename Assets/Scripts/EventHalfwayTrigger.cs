@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class EventHalfwayTrigger : MonoBehaviour
 {
+    public GameObject houseDisapear;
     public Animator anim;
     // Start is called before the first frame update
 
@@ -13,6 +14,7 @@ public class EventHalfwayTrigger : MonoBehaviour
         if (other.CompareTag(("Player")))
         {
             anim.Play("DoorAnimation");
+            houseDisapear.SetActive(false);
             // RenderSettings.fog = true;
         }
     }

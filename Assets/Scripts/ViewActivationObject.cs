@@ -8,7 +8,7 @@ public class ViewActivationObject : MonoBehaviour
     public GameObject objectActivated, objectDestroy;
     
     bool secure = false;
-
+    
     float delay = 15;
     float time = 0;
     // Start is called before the first frame update

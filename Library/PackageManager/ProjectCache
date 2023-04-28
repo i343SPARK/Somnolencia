@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638181371134288421
-    m_Hash: 4169689048
+      ticks: 638182633037439811
+    m_Hash: 3602627902
   m_LockFileStatus:
     m_FilePath: C:/Users/Pablo/OneDrive/Documentos/GitHub/Somnolencia/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638181371134388042
-    m_Hash: 1405109558
+      ticks: 638182633037532911
+    m_Hash: 671687223
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -981,101 +981,6 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 4.7.0
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.services.mediation@1.0.5
-  testable: 0
-  isDirectDependency: 1
-  version: 1.0.5
-  source: 1
-  resolvedPath: C:\Users\Pablo\OneDrive\Documentos\GitHub\Somnolencia\Library\PackageCache\com.unity.services.mediation@1.0.5
-  assetPath: Packages/com.unity.services.mediation
-  name: com.unity.services.mediation
-  displayName: Advertisement with Mediation
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: "NOTE: Unity has joined forces with ironSource and recommends using
-    LevelPlay for ad mediation (instead of this package). Learn how to integrate
-    the LevelPlay plug-in at https://developers.is.com/developer-docs/unity/ \n\nThe
-    Advertisement with Mediation package contains Unity\u2019s own ad mediation solution,
-    which is no longer being enhanced. You may still download and use until further
-    notice, but we recommend using Unity LevelPlay for longer term support and improvements.\n\nSupported
-    platforms:\n- Android\n- iOS"
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 0.2.1-preview.1
-    - 0.2.1-preview.2
-    - 0.3.0-preview.3
-    - 0.4.0-preview.1
-    - 0.4.0-preview.2
-    - 0.4.1-preview.1
-    - 0.5.0-preview.4
-    - 0.5.0-preview.5
-    - 0.5.1-preview.1
-    - 1.0.4
-    - 1.0.5
-    compatible:
-    - 1.0.4
-    - 1.0.5
-    recommended: 1.0.5
-    deprecated: []
-  dependencies:
-  - name: com.unity.settings-manager
-    version: 1.0.3
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.services.core
-    version: 1.4.0
-  - name: com.unity.ugui
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.settings-manager
-    version: 2.0.1
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.services.core
-    version: 1.8.1
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.nuget.newtonsoft-json
-    version: 3.1.0
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
-  - name: com.unity.ugui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 638034295440000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: 610fdc3d37b9dd745e475fbf817705e08f19687e
-    path: 
-  unityLifecycle:
-    version: 1.0.4
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3667,68 +3572,6 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.settings-manager@2.0.1
-  testable: 0
-  isDirectDependency: 0
-  version: 2.0.1
-  source: 1
-  resolvedPath: C:\Users\Pablo\OneDrive\Documentos\GitHub\Somnolencia\Library\PackageCache\com.unity.settings-manager@2.0.1
-  assetPath: Packages/com.unity.settings-manager
-  name: com.unity.settings-manager
-  displayName: Settings Manager
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: A framework for making any serializable field a setting, complete
-    with a pre-built settings interface.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 0.1.0-preview.4
-    - 0.1.0-preview.8
-    - 1.0.0
-    - 1.0.1
-    - 1.0.2
-    - 1.0.3
-    - 2.0.0
-    - 2.0.1
-    compatible:
-    - 2.0.1
-    recommended: 2.0.1
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637744099390000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
-    revision: 9b7c12d04ef880168151c127fd6b37b5931197dc
-    path: 
-  unityLifecycle:
-    version: 2.0.1
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.services.core@1.8.1
   testable: 0
   isDirectDependency: 0
@@ -3814,6 +3657,68 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.8.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.settings-manager@2.0.1
+  testable: 0
+  isDirectDependency: 0
+  version: 2.0.1
+  source: 1
+  resolvedPath: C:\Users\Pablo\OneDrive\Documentos\GitHub\Somnolencia\Library\PackageCache\com.unity.settings-manager@2.0.1
+  assetPath: Packages/com.unity.settings-manager
+  name: com.unity.settings-manager
+  displayName: Settings Manager
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: A framework for making any serializable field a setting, complete
+    with a pre-built settings interface.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.4
+    - 0.1.0-preview.8
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 2.0.0
+    - 2.0.1
+    compatible:
+    - 2.0.1
+    recommended: 2.0.1
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637744099390000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
+    revision: 9b7c12d04ef880168151c127fd6b37b5931197dc
+    path: 
+  unityLifecycle:
+    version: 2.0.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
